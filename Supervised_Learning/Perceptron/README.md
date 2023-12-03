@@ -1,15 +1,32 @@
-# Perceptron
-The perceptron is an early type of artificial neural network, invented in 1957 by Frank Rosenblatt, designed to perform binary classifications by processing multiple input signals. It operates by weighing its inputs, summing them up, and passing them through a non-linear function to produce a binary output. Despite its simplicity and limitations in handling complex, non-linear problems, the perceptron laid the groundwork for the development of more advanced neural networks in machine learning.
+# Perceptron 
 
-## Outline
+## Introduction
+This Jupyter notebook delves into the foundational concept of the Perceptron, an early form of artificial neural networks, developed by Frank Rosenblatt in 1957. The notebook covers its theory, implementation, and application in a binary classification task.
 
-* Introduction
-* Algorithm
-* Code of Perceptron
-* Application on palmer penguins dataset
-* Limitation
-* Conclusion
+## Contents
+1. **Introduction to Perceptron**
+   - Overview of the Perceptron and its historical significance.
+   - The basic working principle of the Perceptron model.
+2. **Perceptron Algorithm Implementation**
+   - Implementation of the Perceptron algorithm from scratch.
+   - Detailed explanation of the code and algorithmic steps.
+3. **Data Application**
+   - Application of the Perceptron model on a real dataset.
+   - Visualization of the decision boundary and error convergence.
+4. **Limitation of Perceptron**
+   - Discussion on the limitations of the Perceptron model.
+   - How these limitations led to further advancements in neural networks.
 
+## Implementation
+The notebook demonstrates the practical implementation of the Perceptron algorithm using a dataset from Palmer Station, Antarctica LTER. Key aspects include:
+- A custom implementation of the Perceptron model in Python.
+- Applying the model to classify penguin species based on physical features.
+- Visualization of the Perceptron's decision boundary and error metrics.
 
-## Dataset
-Palmer penguins dataset from Kaggle.
+## Visualization
+The notebook includes visualizations such as:
+- Error reduction over epochs during the training process.
+- Decision boundary plot demonstrating the Perceptron's classification capability.
+
+## Conclusion
+

@@ -1,22 +1,37 @@
-# Gradient Descent 
+# Gradient Descent and Regression Neuron
 
-Radient Descent is an optimization algorithm used to minimize a function by iteratively moving towards the minimum value of the function. It is commonly used in machine learning to find the best parameters for a model. The algorithm updates the parameters in the opposite direction of the gradient of the objective function with respect to the parameters. In this file, I will build the Gradient Descent algorithm from scratch and implement it on a simple function.
+## Introduction
+This Jupyter notebook provides an in-depth analysis and implementation of Gradient Descent in the context of training a Regression Neuron. It covers the core principles of Gradient Descent as an optimization algorithm and demonstrates its application in optimizing a single neuron model for linear regression tasks.
 
-# Regression Neuron
-Linear regression can be conceptualized as the simplest form of a neural network—a single neuron model. This interpretation provides a foundational understanding of neural networks and is a bridge between traditional statistical methods and modern machine learning.
-In this file, I will construct a Single Neuron Linear Regression Model from scratch. This model will then be applied to the Salary dataset.
+## Contents
+1. **Gradient Descent Overview**
+   - Explanation of Gradient Descent as an optimization algorithm.
+   - Detailed algorithm steps and mathematical formulation.
+2. **Implementing Gradient Descent on a Single Variable Function**
+   - Practical demonstration on a single variable function.
+   - Visualization of Gradient Descent steps on the function graph.
+3. **Single Neuron Linear Regression Model**
+   - Conceptualizing linear regression as a single neuron model.
+   - Data implementation and visualization.
+   - Explanation of the cost function and optimization approach.
+4. **Training the Model**
+   - Implementing Stochastic and Batch Gradient Descent.
+   - Comparing the performance of both methods.
+   - Analyzing Mean Squared Error (MSE) during training epochs.
 
-## Outline
+## Implementation
+The notebook features practical implementation of Gradient Descent on both a single variable function and a linear regression model represented as a single neuron. It includes:
+- Implementing and visualizing Gradient Descent on a single variable function.
+- Applying Gradient Descent for training a single neuron linear regression model using a salary dataset.
+- Comparative analysis of Stochastic and Batch Gradient Descent methods.
+- Visual representation of model training and MSE reduction over epochs.
 
-* Introduction
-* Algorithm
-* Code of Gradient Descent
-* Application on simple function
-* Code of the Single Neuron Linear Regression Model
-* Application on Salary dataset
-* Conclusion
+## Visualization
+Several plots are included to visually demonstrate key concepts:
+- The descent of the function value in Gradient Descent.
+- Linear regression fits using both Stochastic and Batch Gradient Descent.
+- Epoch-wise Mean Squared Error during the training process.
 
-## Dataset
-Salary dataset (X: work experience for years, y: Salary) from Kaggle.
+## Conclusion
 
 
