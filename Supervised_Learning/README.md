@@ -1,6 +1,7 @@
 # Supervised Learning 
 
 ## Overview
+
 This folder contains implementations of seven key supervised learning algorithms applied to various real datasets. The algorithms include Decision Tree, Ensemble Methods, Gradient Descent with Regression Neurons, k-Nearest Neighbors (KNN), Logistic Regression, Neural Network with Multilayer Perceptron (MLP), and Perceptron. Each algorithm is demonstrated on a dataset that showcases its strengths and typical use cases.
 
 ## Contents
