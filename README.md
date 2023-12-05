@@ -18,7 +18,7 @@ The following list showcases the topics covered in this repository. I highly rec
 #### Logistic Regression
 - `Logistic_Regression`: Logistic Regression implementations, showcasing its use in binary classification problems.
 
-### #Neural Network
+#### Neural Network
 - `Neural_Network`: Detailed examples of Neural Networks, covering their structure, function, and various applications.
 
 #### K-Nearest Neighbors
